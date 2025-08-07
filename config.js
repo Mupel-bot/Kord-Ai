@@ -11,7 +11,7 @@ module.exports = {
     MONGODB_URI: process.env.MONGODB_URI || "",
     STATUS_VIEW: process.env.STATUS_VIEW || true,
     SAVE_STATUS: process.env.SAVE_STATUS || false,
-    LIKE_STATUS: process.env.SAVE_STATUS || true,
+    LIKE_STATUS: process.env.LIKE_STATUS || true,
     STATUS_EMOJI: process.env.STATUS_EMOJI || "🫠",
     ERROR_MSG: process.env.ERROR_MSG || true,
     TIMEZONE: process.env.TIMEZONE || "Africa/Lagos",
